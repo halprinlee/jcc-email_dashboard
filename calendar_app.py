@@ -5,9 +5,9 @@ from datetime import datetime, timedelta
 
 # Page configuration
 st.set_page_config(layout="wide", page_title="Marketing Calendar")
-st.image("/workspaces/jcc-member_experience_dashboard/JCC-Logo-2-Color.png", width=450)
-# Configure CSS Styles 
+st.image("data/JCC-Logo-2-Color.png", width=450)
 
+# Configure CSS Styles 
 st.markdown("""
 <style>
     /* Main page container */
@@ -302,8 +302,8 @@ def create_timeline(filtered_df):
 
 def main():
     # Load data
-    file_path = "/workspaces/jcc-member_experience_dashboard/Updated_Marketing_Calendar.csv"
-    categories_file = "/workspaces/jcc-member_experience_dashboard/allowed_categories.csv"
+    file_path = "data/Updated_Marketing_Calendar.csv"
+    categories_file = "data/allowed_categories.csv"
     
     df = load_data(file_path)
     if df is None:
