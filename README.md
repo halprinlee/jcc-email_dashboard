@@ -1,2 +1,2 @@
-# JCC Member Experience Dashboard
-This project will be a React-based dashboard for JCC member insights.
+# JCC Marketing Calendar
+This project will be dashboard for JCC marketing insights.
